@@ -83,11 +83,8 @@ input#search::placeholder{
     text-align: center;
     justify-content: center;
     z-index: 100;
-    position: absolute;
-    top: 50%;
-    right: 50%;
-    transform: translate(50% ,-50%);
     width: 100%;
+    height: 100%;
     flex-direction: column;
 }
 .eb-text-area a{
@@ -249,12 +246,41 @@ footer a:hover{
         width: 100%;
     }
 }
+@media screen and (min-width :520px) {
+    .eb-text-area a{
+        font-size: 67px;
+        
+    }
+    .eb-text-area h5{
+        font-size: 20px;
+    }
+    iframe{
+        width: 400px;
+        height: 250px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #container .eb-heading{
+        font-size: 40px;
+    }
+    #container .eb-box-container .eb-box p{
+        font-size: 12px;
+    }
+    .row .col-md-6{
+        width: 90%;
+    }
+
+
+}
 @media screen and (min-width:320px) and (max-width:520px) {
     .navbar ul{
         flex-wrap: wrap;
     }
     .navbar a{
-        font-size: 20px;
+        font-size: 14px;
     }
    #container1 .card-header{
         font-size: 25px;
@@ -305,5 +331,30 @@ footer a:hover{
         justify-content: space-between;
         letter-spacing: 3px;
         flex-direction: row;
+    }
+    .eb-text-area a{
+        font-size: 37px;
+        
+    }
+    .eb-text-area h5{
+        font-size: 10px;
+    }
+    iframe{
+        width: 250px;
+        height: 250px;
+    }
+    .row{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    #container .eb-heading{
+        font-size: 40px;
+    }
+    #container .eb-box-container .eb-box p{
+        font-size: 12px;
+    }
+    .row .col-md-6{
+        width: 90%;
     }
 }
