@@ -246,7 +246,7 @@ footer a:hover{
         width: 100%;
     }
 }
-@media screen and (min-width :520px) {
+@media screen and (min-width:520px) and (max-width:768px) {
     .eb-text-area a{
         font-size: 67px;
         
